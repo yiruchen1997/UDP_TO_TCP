@@ -11,7 +11,7 @@
 成果展示
 ----
 Server端 : <br>
-![](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_server.JPG)
+![server](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_server.JPG)
 
-<br><br>Client端 : <br>
-![](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_client.JPG)
+<br>Client端 : <br>
+![client](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_client.JPG)
