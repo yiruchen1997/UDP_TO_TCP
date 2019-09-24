@@ -1,7 +1,9 @@
 利用UDP Socket模擬TCP運作
 ====
+
 簡介
 ----
+
 以UDP socket實作TCP資料傳輸，包含Three-way handshake、影像檔案傳輸、延遲和遺漏封包的處理等。
 
 * 實作封包傳遞影像資料，首先建立傳送端與接收端連線，利用Three-way handshake確認雙方能正確通訊後，<br>即可開始傳送接收端所請求的檔案。當成功地完成一般資料傳輸，下一步要模擬封包延遲與遺漏的情形；<br>TCP具有壅塞控制的能力，本次選擇嘗試Reno和Tahoe兩種機制進行模擬，利用有限狀態機之觀念進行狀態轉換，<br>在封包的接收上出現錯誤時便能盡快處理並復原。<br><br>
@@ -10,8 +12,9 @@
 
 成果展示
 ----
-Server端 : <br><br>
+
+* Server端 : <br><br>
 ![](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_server.JPG)
 
-<br>Client端 : <br><br>
+* Client端 : <br><br>
 ![](https://github.com/yiruchen1997/udp_to_tcp/blob/master/udp_to_tcp_client.JPG)
